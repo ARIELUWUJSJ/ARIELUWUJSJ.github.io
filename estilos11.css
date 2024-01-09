@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+.service-image {
+    width: 300px;
+    margin: 20px 0;
+}
+
+.details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.edit-button {
+    background-color: #2ecc71;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+}
+
+.back-button {
+    background-color: #3498db;
+    color: white;
+}

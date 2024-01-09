@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+  <link rel="stylesheet" href="estilos10.css">
+  <meta charset="UTF-8">
+  <title>Mi Experiencia en Este Campo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mi experiencia en este campo me ha brindado un amplio conocimiento y habilidades que pueden marcar la diferencia en su servicio solicitado</h1>
+    
+    <p>DATOS DE CONTACTO DEL TRABAJADOR, SI ESTÁ INTERESADO EN CONTRATAR SUS SERVICIOS, PÓNGASE EN CONTACTO CON ÉL DE INMEDIATO.</p>
+
+    <img src="servicio.jpg" alt="Imagen de servicio" class="service-image">
+    <br>
+    <img src="usuario.png" alt="Foto de perfil" class="profile-image">
+    
+    <div class="details">
+    
+      <h2>CALIFICACIÓN DE FIABILIDAD:</h2>
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+
+    <div class="ratings">
+      <h3>¿YA CONTRATÓ A ESTA PERSONA?, BRÍNDELE UNA CALIFICACIÓN PARA EVALUAR EL DESEMPEÑO QUE REALIZÓ:</h3>
+      <select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <button type="button" onclick="calificar()">CALIFICAR</button>
+    </div>
+
+    <div class="comments">
+      <h2>COMENTARIOS SOBRE EL TRABAJADOR</h2>
+      <textarea id="comentario"></textarea>
+      <button type="button" onclick="subirComentario()">Comentar</button>
+      <p>COMENTARIOS:</p>
+      <div id="comentarios" class="comment-container"></div>
+    </div>
+
+    <button type="button" onclick="regresar ()">REGRESAR</button>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
